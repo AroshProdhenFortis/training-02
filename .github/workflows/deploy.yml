@@ -28,7 +28,7 @@ jobs:
         shell: powershell
         run: |
           $src = Join-Path $env:GITHUB_WORKSPACE "dist"
-          $dst = "G:\training\frontend-2"
+          $dst = "G:\training-a\frontend-2"
 
           if (!(Test-Path $dst)) { New-Item -ItemType Directory -Path $dst | Out-Null }
 
